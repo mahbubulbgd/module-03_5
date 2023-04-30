@@ -1,0 +1,175 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {}
+
+  header nav {
+    background: #005a84;
+    padding: 20px;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 50px; */
+    width: 100%;
+    max-width: 50%;
+    margin: auto;
+  }
+
+  header nav ul li {
+    list-style: none;
+    padding: 10px 20px;
+  }
+
+  header nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  header nav ul li:hover {
+    background: #007fba;
+    border-radius: 5px;
+    /* cursor: pointer; */
+  }
+
+
+
+
+
+
+
+
+
+
+  .banner {
+    position: relative;
+    text-align: center;
+    color: #000;
+  }
+
+  .banner img {
+    height: 90vh;
+    width: 100vw;
+  }
+
+  .img-text {
+    position: absolute;
+    top: 30px;
+    left: 522px;
+    font-size: 40px;
+    font-weight: 600;
+    background: #0000002b;
+    padding: 0 20px;
+  }
+
+  /* .foreground-color {
+    position: absolute;
+    background: #0000001a;
+    height: 90vh;
+    width: 100vw;
+    left: 0;
+    top: 86px;
+  } */
+
+
+
+
+
+
+
+
+
+  .card-heading {
+    text-align: center;
+    padding: 50px;
+    text-shadow: 2px 2px 2px rgb(130, 130, 130);
+  }
+
+  .card-section {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    gap: 50px;
+    margin: 0 100px;
+  }
+
+  .card {
+    background: #005a84;
+    width: 30%;
+    height: 550px;
+    padding: 50px 0px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .card img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+
+  .card-text {
+    text-align: justify;
+    padding: 20px;
+    font-weight: 300;
+    font-size: small;
+  }
+
+  .card h3 {
+    margin-top: 20px;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .card p {}
+
+  .card button {}
+
+  .card:hover {
+    border: 2px solid #003751;
+    box-shadow: 5px 5px 5px black;
+  }
+
+
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+    margin-top: 100px;
+    color: #fff;
+    padding: 50px;
+  }
+
+  footer p {}
+
+  footer nav {}
+
+  footer nav ul {
+    display: inline-flex;
+    gap: 50px;
+  }
+
+  footer nav ul li {
+    list-style: none;
+    font-size: 25px;
+  }
+
+  footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
